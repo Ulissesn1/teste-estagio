@@ -1,0 +1,128 @@
+/*
+Primary: #174DBA
+Gray: #EFF0F3
+- **White:** #FFFFFF
+- **Dark:** #505050
+*/
+
+* {
+    margin: 0px
+}
+
+.container{
+    
+
+    
+    
+}
+
+body {
+    margin: 0px;
+    background-color:  #EFF0F3;
+}
+
+#cabecalho{
+
+    background-color: #174DBA;
+    font-family:Helvetica Neue ;
+    color: #FFFFFF;
+    text-align: center;
+    height: 7vh;
+   
+}
+
+#cabecalho h2 {
+    font-size: 48px;
+}
+
+
+#genero{
+    color: #174DBA;
+}
+h3{
+    font-family:  HelveticaNeue Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 16px;
+    color: #174DBA;
+    text-align: center;
+    
+ 
+
+}
+
+#formulario{
+    background-color: #FFFFFF;
+    width: 75vw;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    color: #174DBA;
+    padding-top: 20px;
+}
+
+@media (min-width: 1200px) {
+    #formulario{
+        width: 25vw;
+    }
+}
+
+#cadastro{
+    background-color: #FFFFFF;
+    width: 35vw;
+    height: 50vh;
+    text-align:center ;
+  margin: auto;
+  columns: 2;
+
+}
+
+#cadastrar{
+    background-color: #174DBA;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 12vw;
+    text-align: center;
+  
+}
+
+#entrar{
+    background-color: #174DBA;
+    color: #FFFFFF;
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px;
+    font-size: 16px;
+     
+
+}
+
+input{
+    border-radius: 5px;
+    border-color: #174DBA;
+    width: 55vw;
+    height: 4vh;
+}
+
+.inputEmLinha input {
+    width: 13px !important;
+}
+
+@media (min-width: 1200px) {
+    input{
+        width: 15vw;
+    }
+}
+
+img{
+    width: 25px;
+    columns: 2;
+}
+
+.teste {
+    height: 92vh;
+    width: 100vw;
+    display: table;
+}
+
+.teste1 {
+    display: table-cell;
+    vertical-align: middle;
+}

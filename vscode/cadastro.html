@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title> Cadastro de Usuários</title>
+</head>
+
+<body>
+   
+<div id="cabecalho">
+    <h2 > UpperSoft</h2>
+</div>
+
+<div class="container">
+    <div class="teste">
+        <div class="teste1">
+            <div id="cadastro" >
+                <h3> Cadastro</h3>
+                <form method="get">
+                    <p>
+                        <label for="txtNomeCompleto" >Nome Completo</label><br>
+                        <input type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Digite aqui"> 
+        
+                    
+                    </p>
+        
+                    <p>
+                        <label for="slctEstado" >Estado</label><br>
+                         <select name ="Estado" id="slctEstado" >
+                             
+                             <option value="ES">Espírito Santo</option>
+                             <option value="RJ">Rio de Janeiro</option>
+                             <option value="SP">São Paulo</option>
+                         </select>
+                         
+                    </p>
+                    <p>
+                         
+                            <label for="senha">Senha</label><br>
+                            <input type="password" id="senha" name="senha"
+                                    placeholder="mínimo de 6 caracteres" required>
+                        
+                    </p>
+                    <p>
+                        <label for="txtEmail">E-mail</label><br>
+                        <input type="text" name="Email" id="txtEmail" placeholder="email@servidor.com"> 
+                    </p>
+        
+                    <p class="inputEmLinha">
+                        <span id="genero"> Sexo </span>
+                        <input type="radio" name="Sexo" id="rdFeminino"> 
+                        <label for="rdFeminino" value="f">Feminino</label> 
+    
+                        <input type="radio" name="Sexo" id="rdMasculino"> 
+                        <label for="rdMasculino" value="m">Masculino</label> 
+    
+                        <input type="radio" name="Sexo" id="rdOutro"> 
+                        <label for="rdOutro" value="o">Outro</label> 
+    
+    
+                    </p>
+                    <p>
+                    
+                        <label for="senha">Senha</label><br>
+                        <input type="password" id="senha" name="senha"
+                                placeholder="repita a senha aqui" required><br>
+                    
+                    </p>
+                    <div>                  
+                            <input id="cadastrar" type="submit" value="Cadastrar"> <br>
+                        Já possui uma conta? <a href="index.html " target="_blank" name="index">Entre aqui</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
